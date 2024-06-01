@@ -48,7 +48,8 @@ public class Tienda {
         this.vehiculo = vehiculo;
     }
 
-    void existeStock(){
-        System.out.println("En el sistema figuran: " + getStock());
+    public String existeStock(){
+        return String.format("el stock es %d", getStock());
     }
+
     }

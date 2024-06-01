@@ -22,7 +22,10 @@ public class Bus extends Vehiculo{
     public void setCantidadDeAsientos(int cantidadDeAsientos) {
         this.cantidadDeAsientos = cantidadDeAsientos;
     }
-    void asientosDisponibles(){
-        System.out.println("En el bus quedan: "+ getCantidadDeAsientos() +" asientos disponibles!. ");
+    public int asientosDisponibles(int asientosUtilizados){
+        if (asientosUtilizados <= cantidadDeAsientos){
+            return cantidadDeAsientos - asientosUtilizados;
+        }
+        return 0;
     }
 }
