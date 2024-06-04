@@ -26,7 +26,7 @@ public class Taxi extends Vehiculo{
 
     public int pagarPasaje(int monto){
         if (monto>= valorPasaje){
-            return monto - valorPasaje;
+            return valorPasaje - monto;
         }
        return monto;
     }

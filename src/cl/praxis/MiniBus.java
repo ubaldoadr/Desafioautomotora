@@ -27,7 +27,16 @@ public class MiniBus extends Bus{
     public void setTipoDeViaje(String tipoDeViaje) {
         this.tipoDeViaje = tipoDeViaje;
     }
-    void imprimeBus(){
-        System.out.println("En el minibus quedan" + getCantidadDeAsientos()+" asientos disponibles");
+    public void imprimeBus(){
+        System.out.println(toString());
+    }
+
+    @Override
+    public String toString() {
+        return "Bus{" +
+                "tipo de viaje=" + getTipoDeViaje() +
+                "color=" + getColor() +
+                "patentes=" + getPatente() +
+                '}';
     }
 }

@@ -1,0 +1,3 @@
+Patente: 323232 Edad: 22 Fecha de venta 1111 Nombre venta aaa
+Patente: 333333 Edad: 30 Fecha de venta 1111 Nombre venta aaa
+Patente: 444444 Edad: 20 Fecha de venta 1111 Nombre venta aaa
